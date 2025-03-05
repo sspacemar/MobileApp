@@ -43,7 +43,7 @@ class _TrafficLightScreenState extends State<TrafficLightScreen> {
             AnimatedOpacity(
               duration: const Duration(seconds: 1),
               opacity: _currentLight == 0 ? 1.0 : 0.3,
-              child: _buildTrafficLight(const Color.fromARGB(235, 195, 52, 41)),
+              child: _buildTrafficLight(const Color.fromARGB(235, 206, 57, 47)),
             ),
             const SizedBox(height: 20),
             AnimatedOpacity(
