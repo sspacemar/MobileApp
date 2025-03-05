@@ -82,7 +82,7 @@ class _TrafficLightScreenState extends State<TrafficLightScreen> {
             color: color.withOpacity(0.5),
             spreadRadius: 5,
             blurRadius: 15,
-            offset: const Offset(0, 4),
+            offset: const Offset(0, 5),
           ),
         ],
       ),
